@@ -13,7 +13,7 @@ import {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/paintedch">
       <Switch>
         <Route exact path="/"> <Home /></Route>
         <Route path="/gallery"><Gallery /></Route>
