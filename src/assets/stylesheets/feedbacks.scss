@@ -1,0 +1,132 @@
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.form-group input, .form-group textarea {
+  height: 33px;
+}
+
+.mail-modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: $modal-back-color;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  overflow-y: auto;
+
+  .btn-cancel {
+    position: fixed;
+    background-color: $cancel-color;
+    box-shadow: $button-shadow;
+    border-radius: $round-radius;
+    width: 60px;
+    height: 60px;
+    bottom: 60px;
+    right: 6vw;
+    cursor: pointer;
+
+    .cross {
+      width: 24px;
+      height: 24px;
+      left: 50%;
+      top: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .mail-box {
+    margin-top: 18vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 43vw;
+    min-width: 590px;
+    max-width: 720px;
+    background-color: $white;
+
+    .mail-form {
+
+      .msg {
+        font-family: $secondary-font-regular;
+        font-size: 16px;
+        line-height: 1.67;
+        text-align: left;
+        margin-bottom: 60px;
+        color: $text-color;
+
+        .title {
+          margin-bottom: 32px;
+
+          img {
+            display: inline-block;
+          }
+
+          .name {
+            display: inline-block;
+            margin-left: 19px;
+          }
+        }
+
+      }
+
+      .msg-success {
+        font-family: $secondary-font-regular;
+        font-size: 24px;
+        line-height: 1.67;
+        text-align: left;
+        color: $text-color;
+
+        .title {
+          margin-bottom: 32px;
+
+          img {
+            display: inline-block;
+          }
+
+          .name {
+            display: inline-block;
+            margin-left: 19px;
+          }
+        }
+      }
+
+      .inputs {
+
+        .errors-msg {
+          display: inline-block;
+          position: absolute;
+          color: $mf-error-color;
+          margin-top: 5px;
+          margin-bottom: 0;
+        }
+      }
+
+      .button-container {
+        margin-top: 60px;
+        text-align: left;
+        .button.send {
+          text-align: center;
+          width: 162px;
+          height: 60px;
+          font-size: 100%;
+          margin-top: 0;
+          margin-bottom: 0;
+          padding-left: 35px;
+          padding-right: 35px;
+          padding-top: 16px;
+          padding-bottom: 16px;
+        }
+      }
+    }
+  }
+}

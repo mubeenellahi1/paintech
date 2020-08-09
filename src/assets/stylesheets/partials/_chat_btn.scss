@@ -1,0 +1,43 @@
+.chat-btn {
+  position: fixed;
+  background-color: $secondary-color;
+  box-shadow: $button-shadow;
+  border-radius: $round-radius;
+  width: 60px;
+  height: 60px;
+  bottom: 60px;
+  right: 6vw;
+  z-index: 2;
+  cursor: pointer;
+
+  .chat {
+    width: 26px;
+    height: 24px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.chat-btn-down {
+  position: absolute;
+  background-color: $secondary-color;
+  box-shadow: $button-shadow;
+  border-radius: $round-radius;
+  width: 60px;
+  height: 60px;
+  bottom: 300px;
+  right: 6vw;
+  z-index: 2;
+  cursor: pointer;
+
+  .chat {
+    width: 24px;
+    height: 24px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+}

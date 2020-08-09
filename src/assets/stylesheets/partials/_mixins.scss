@@ -1,0 +1,9 @@
+@mixin header() {
+  color: $header-color;
+  font-family: $font-medium;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.37;
+  letter-spacing: -1px;
+  text-align: left;
+}

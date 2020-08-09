@@ -1,0 +1,48 @@
+@media only screen and (max-width: 650px) {
+  background-color: $body-bg;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  .mail-modal {
+    .btn-cancel {
+      top: 20px;
+    }
+    .mail-box {
+      position: fixed;
+      margin-top: 0;
+      margin-bottom: auto;
+      width: 100vw;
+      height: 100vh;
+      .body {
+        width: 250px;
+        height: 54px;
+        font-size: 16px;
+        line-height: 1.69;
+        text-align: left;
+      }
+      .inputs {
+        width: 86vw;
+      }
+      .button-container {
+        position: relative;
+        top: 60px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 325px) {
+  .mail-modal .mail-box .mail-form {
+    .button-container {
+      margin-top: -12px;
+    }
+    .msg-success {
+      .title {
+        margin-bottom: 33px;
+        margin-left: 24px;
+      }
+      .body {
+        margin-left: 48px !important;
+      }
+    }
+  }
+}

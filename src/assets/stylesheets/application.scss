@@ -1,0 +1,33 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import 'partials/variables';
+@import 'partials/helpers';
+@import 'partials/mixins';
+@import 'partials/material';
+@import 'partials/footer';
+@import 'partials/header';
+@import 'partials/chat_btn';
+@import 'home';
+@import 'about';
+@import 'feedbacks';
+@import 'gallery';
+@import 'terms_and_condition';
+@import 'orders';
+@import 'media/home_media';
+@import 'media/gallery_media';
+@import 'media/feedbacks_media';
+@import 'media/orders_media';
+@import 'media/terms_and_condition_media';
+@import 'media/about_media';
+@import 'media/_footer_media';
+@import 'media/header_media';
+
+
+
+.body {
+  font-family: $font-regular, $font-light, $font-medium, $secondary-font-regular;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+

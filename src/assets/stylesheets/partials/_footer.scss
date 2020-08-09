@@ -1,0 +1,65 @@
+#footer {
+  position: relative;
+  bottom: 0;
+  height: 240px;
+  width: 100%;
+  padding-top: 76px;
+  padding-left: 120px;
+  padding-right: 120px;
+  background-color: $footer-color;
+  z-index: 1;
+
+  #logo {
+    width: 240px;
+    height: 75px;
+    float:left;
+    object-fit: contain;
+  }
+
+  #nav-menu {
+    float: right;
+    margin-top: 23px;
+    font-family: $secondary-font-regular;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 1.13;
+    letter-spacing: -0.1px;
+    list-style-type: none;;
+
+    a {
+      display: inline-block;
+      &:link {
+        text-decoration: none;
+        color: $white;
+      }
+      &:visited {
+        text-decoration: none;
+        color: $white;
+      }
+      &.active {
+        position: relative;
+      }
+      &.active::after {
+        left: 50%;
+        margin-left: -1px;
+        top: -10px;
+        position:absolute;
+        display: block;
+        width: 6px;
+        height: 6px;
+        content:"";
+        background-color: $bullit-color;
+        border-radius: $round-radius;
+      }
+      &:hover {
+        color: $hover-color-a;
+      }
+    }
+
+    li {
+      display: inline;
+      margin-left: 50px;
+    }
+  }
+
+}

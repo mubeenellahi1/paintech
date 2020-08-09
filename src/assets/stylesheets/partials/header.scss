@@ -1,0 +1,205 @@
+#header {
+  display: block;
+  position: relative;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-top: 40px;
+  background-color: $black;
+  width: 100%;
+  min-height: 200px;
+  margin: 0;
+  z-index: 2;
+  .logo {
+    display: block;
+    position: relative;
+    top: -24px;
+    float: left;
+    z-index: 1;
+
+    img {
+      z-index: 2;
+      height: 75px;
+      width: 240px;
+    }
+
+    span {
+      color: $slogan-color-media;
+      display: block;
+      font-family: $font-roboto-regular;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 300;
+      height: 40px;
+      line-height: 1.18;
+      margin-top: 10px;
+      text-align: left;
+      width: 280px;
+    }
+  }
+  #lg-group {
+    z-index: 2;
+    position: absolute;
+    top: 160px;
+    left: 7vw;
+
+    &:hover{
+      .lg-btn{
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.33) 0px 1px 10px 0px;
+      }
+    }
+    .lg-btn {
+      display: inline-block;
+      //font-family: $font-regular;
+      position: absolute;
+      background-color: $white;
+      border-radius: $round-radius;
+      left: 0px;
+      top: 0px;
+      width: 35px;
+      height: 35px;
+      line-height: 34px;
+      font-size: 20px;
+      margin-right: 10px;
+      text-align: center;
+      border: 1px solid #ddd;
+      a {
+        color: $language-picker-color ;
+        text-decoration: none;
+      }
+    }
+
+    .active {
+      background-color: $language-picker-color !important;
+      box-shadow: 0 0 10px 4px rgba(0, 0, 0, .3) !important;
+      z-index: 1;
+      border: none !important;
+      a{
+        color:$white;
+      }
+    }
+
+
+  }
+  .nav-menu {
+    display: block;
+    position: relative;
+    float: right;
+    z-index: 3;
+    font-family: $secondary-font-regular;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 1.13;
+    letter-spacing: -0.1px;
+    list-style-type: none;
+    top: -26px;
+    right: 0;
+    margin: 0;
+    padding: 0;
+
+    a {
+      display: inline-block;
+
+      &:link {
+        text-decoration: none;
+        color: $white;
+      }
+
+      &:visited {
+        text-decoration: none;
+        color: $white;
+      }
+
+      &.active {
+        text-decoration: none;
+        position: relative;
+      }
+
+      &.active::after {
+        z-index: 3;
+        left: 50%;
+        margin-left: -1px;
+        top: -10px;
+        position:absolute;
+        display: block;
+        width: 6px;
+        height: 6px;
+        content:"";
+        background-color: $bullit-color;
+        border-radius: $round-radius;
+      }
+      &:hover {
+        color: $hover-color-a;
+      }
+    }
+    li {
+      display: inline-block;
+      margin-top: 26px;
+      margin-left: 91px;
+    }
+  }
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    left: 66vw;
+    top: 2vw;
+    text-align: center;
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    nav {
+      background: rgba(0,0,0,0);
+      padding: 10px;
+      padding-left: 20px;
+    }
+    .list-menu {
+      display: flex;
+      list-style: none;
+      margin-left: -21px;
+      font-weight: 200;
+      font-family: $secondary-font-regular;
+      width: 115px;
+    }
+    .list-menu > li > a {
+      text-decoration: none;
+      text-align: right;
+      color: $white;
+      display: block;
+      padding: 5px 15px;
+      padding-left: 0;
+    }
+    .list-menu > li > a:hover {
+      color: $hover-color-a;
+    }
+
+    #btn-menu {
+      display: none;
+    }
+    #btn-menu + label {
+      display: none;
+      position: relative;
+      color: $white;
+      height: 20px;
+      z-index: 1;
+      cursor: pointer;
+      left: 56px;
+    }
+    #btn-menu + label:before {
+      content: '\f0c9';
+      display: inline-block;
+      font-family: $font-awesome;
+      font-size: 22px;
+      position: absolute;
+    }
+    #btn-menu:checked + label:before {
+      content: '\f00d';
+      color: $white;
+      position: absolute;
+      top: 0;
+      right: 25px;
+    }
+  }
+}

@@ -1,0 +1,462 @@
+@media only screen and (min-width: 2500px) {
+  .orders #prices .brush-1 {
+    right: 42%;
+  }
+  .orders .image .image-1 {
+    top: -1vw;
+    left: 57.5%;
+  }
+  .orders .sofa span.text-size-sofa {
+    top: 5vw !important;
+    left: 65%;
+  }
+  .orders .which-size-would-you {
+    margin-top: -17vw !important;
+  }
+}
+@media only screen and (min-width: 2251px) and (max-width: 2499px) {
+  .orders .which-size-would-you {
+    margin-top: -16vw !important;
+  }
+  .orders #prices .brush-1 {
+    right: 42% !important;
+  }
+}
+@media only screen and (min-width: 1951px) and (max-width: 2250px){
+  .orders #prices .brush-1 {
+    right: 40% !important;
+  }
+  .orders .image .image-1 {
+    top: -3vw !important;
+    left: 60% !important;
+  }
+}
+@media only screen and (min-width: 1750px) and (max-width: 1950px){
+  .orders .image .image-1 {
+    top: -1% !important;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .orders {
+    .sofa {
+      .sofa-1 {
+        top: 7vw;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1150px) and (min-width: 636px){
+  .orders {
+    .sofa {
+      .sofa-1 {
+        display: none;
+      }
+      hr.line-under-sofa {
+        display: none;
+      }
+      span.text-size-sofa {
+        display: none;
+      }
+    }
+    .image {
+      .image-1 {
+        display: none;
+      }
+    }
+    .which-size-would-you {
+      margin-top: 0 !important;
+    }
+    .the-transport-fees {
+      margin-top: 85px !important;
+    }
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 636px) {
+  .orders #prices .brush-1 {
+    right: 7vw;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .orders #prices .brush-1 {
+    right: 140px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .msg-success {
+    margin-bottom: 342px;
+  }
+}
+@media only screen and (max-width: 635px) {
+  .msg-success {
+    margin-bottom: 260px;
+    width: 90%;
+    margin-left: -30px;
+    font-size: 19px;
+  }
+  max-width: 800px;
+  background-color: $body-bg;
+  .orders {
+    height: 100vh;
+    width: 100vw;
+    .no-media {
+      display: none;
+    }
+    .drop {
+      .img {
+        object-fit: contain;
+        mix-blend-mode: multiply;
+        position: absolute;
+      }
+      .media {
+        display: inline-block;
+      }
+      .drop-pr-media-1 {
+        width: 22px;
+        height: 45px;
+        top: 350px;
+        right: -9vw;
+      }
+      .drop-pr-media-2 {
+        width: 11px;
+        top: 335px;
+        right: -4vw;
+      }
+      .drop-pr-media-3 {
+        width: 16px;
+        height: 63px;
+        top: 850px;
+        left: -10vw;
+      }
+      .drop-pr-media-4 {
+        width: 19px;
+        height: 111px;
+        top: 950px;
+        right: -9vw;
+      }
+      .drop-pr-media-5 {
+        width: 11px;
+        height: 33px;
+        top: 1250px;
+        left: -10vw;
+      }
+      .drop-pr-media-6 {
+        width: 29px;
+        height: 58px;
+        top: 1430px;
+        right: -9vw;
+      }
+
+    }
+
+    #prices {
+      span.title {
+        width: 135px;
+        height: 50px;
+        font-size: 48px;
+      }
+      .brush-1 {
+        height: 265px;
+        right: 5vw;
+        top: -12vw;
+      }
+    }
+    .best-price-guarantee {
+      width: 251px;
+      height: 64px;
+      font-size: 30px;
+      margin-top: 25px;
+    }
+    .remember-if-you-find {
+      width: 250px;
+      height: 108px;
+      font-size: 16px;
+      line-height: 1.69;
+    }
+    .image {
+      .image-1 {
+        width: 155px;
+        height: auto;
+        position: absolute;
+        left: 20vw;
+        top: 405px;
+        max-width: 100%;
+      }
+    }
+    .sofa {
+      .sofa-1 {
+        width: 250px;
+        height: auto;
+        max-width: 100%;
+        position: absolute;
+        left: 8.5vw;
+        top: 550px;
+      }
+      hr.line-under-sofa {
+        width: 260px;
+        height: 1px;
+        position: absolute;
+        left: -35vw;
+        top: 650px;
+        max-width: 100%;
+      }
+      span.text-size-sofa {
+        display: block;
+        width: 55px;
+        height: 27px;
+        font-size: 14px;
+        line-height: 1.93;
+        position: absolute;
+        left: 34vw;
+        top: 665px;
+      }
+    }
+
+    .which-size-would-you {
+      width: 250px;
+      height: 24px;
+      font-size: 18px;
+      line-height: 1.33;
+      margin-top: 350px;
+    }
+    .field-size {
+      label {
+        width: 95px;
+        height: 27px;
+        font-size: 14px;
+        line-height: 1.93;
+    }
+      select {
+        width: 280px;
+        font-size: 14px;
+        line-height: 1.67;
+        margin-left: 0;
+        max-width: 100vh;
+      }
+
+      hr.line-select-size {
+        width: 280px;
+        height: 2px;
+        max-width: 100vh;
+      }
+    }
+    .please-contact {
+      width: 250px;
+      height: 54px;
+      font-size: 12px;
+      line-height: 1.93;
+    }
+
+    .transport-fees {
+      margin-top: -10px;
+      width: 290px;
+      height: 24px;
+      font-size: 18px;
+      line-height: 1.33;
+    }
+    .the-transport-fees {
+      margin-top: 70px;
+      width: 290px;
+      height: 124px;
+      font-size: 16px;
+      line-height: 1.69;
+    }
+    .field-transport {
+      margin-top: 60px;
+      margin-bottom: 40px;
+      label {
+        width: 67px;
+        height: 27px;
+        font-size: 14px;
+        line-height: 1.93;
+      }
+      select {
+        width: 180px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 1.93;
+        margin-left: 15px;
+      }
+      hr.line-select-transport {
+        width: 187px;
+        height: 2px;
+        margin-left: 90px;
+        margin-top: -6px;
+      }
+    }
+    .field-comment {
+      margin-top: 24px;
+      margin-bottom: 40px;
+
+      #order_comment {
+        width: 280px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 1.67;
+        margin-left: 0px;
+      }
+
+      hr.line-comment {
+        width: 280px;
+        height: 2px;
+        margin-left: 0px;
+        margin-top: -8px;
+        margin-bottom: 20px;
+      }
+    }
+    .we-estimate {
+      width: 290px;
+      height: 27px;
+      font-size: 16px;
+      line-height: 1.69;
+    }
+    .chf {
+      width: 157px;
+      height: 40px;
+      font-size: 36px;
+      line-height: 1.11;
+      letter-spacing: -0.6px;
+    }
+    .click-below {
+      width: 270px;
+      height: 54px;
+      font-size: 14px;
+      line-height: 1.93;
+      margin-top: 10px;
+    }
+    .field-upload-picture {
+      margin-top: 50px;
+      label, hr.line-under-upload {
+        display: none;
+      }
+    }
+
+    div.file {
+      margin-top: 20px;
+      margin-left: 0;
+      label[for="upload"] {
+        font-size: 17px;
+        width: 280px;
+        height: 55px;
+      }
+    }
+    .field-upload-picture {
+      label {
+        display: block;
+        width: 295px;
+        font-size: 12px;
+        margin-bottom: -50px;
+        text-align: center;
+        margin-left: -7px;
+        overflow: hidden;
+      }
+    }
+
+    .stars {
+      font-size: 10px;
+    }
+    .field-info {
+      width: 280px;
+      height: 27px;
+      font-size: 14px;
+      line-height: 1.93;
+      .order {
+        width: 280px;
+        height: 27px;
+        font-size: 14px;
+        line-height: 1.93;
+      }
+    }
+    .line-info {
+      width: 280px;
+    }
+    .actions input {
+      width: 280px;
+      height: 50px;
+      font-size: 14px;
+      line-height: 1.93;
+    }
+    #error_explanation {
+      h3 {
+        font-size: 18px;
+        width: 280px;
+      }
+      li {
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 362px) {
+  .orders .field-transport select {
+    width: 175px;
+  }
+}
+@media only screen and (max-width: 325px) {
+  .orders {
+    #prices .brush-1 {
+      right: -4vw;
+    }
+    #content form {
+      margin-left: -27px;
+    }
+    .field-transport select {
+      width: 163px;
+      margin-left: 20px;
+    }
+    .image .image-1 {
+      left: 15vw;
+    }
+    .sofa {
+      .sofa-1 {
+        left: 1.5vw;
+      }
+      hr.line-under-sofa {
+        left: -42vw;
+      }
+      span.text-size-sofa {
+        left: 32vw;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 295px) {
+  .orders {
+    .field-size {
+      select, hr.line-select-size {
+        width: 90vw;
+      }
+    }
+    .the-transport-fees, .transport-fees, .we-estimate {
+      width: 90vw;
+    }
+    .field-transport {
+      hr.line-select-transport {
+        width: 57vw;
+      }
+      select {
+        width: 47vw;
+      }
+    }
+    .field-comment {
+      #order_comment, hr.line-comment {
+        width: 90vw;
+      }
+    }
+    .field-info {
+      width: 90vw;
+      .order {
+        width: 90vw;
+      }
+    }
+    .field-upload-picture label {
+      width: 95vw;
+    }
+    .line-info {
+      width: 90vw;
+    }
+    div.file label[for="upload"], .actions input {
+      width: 90vw;
+    }
+  }
+}

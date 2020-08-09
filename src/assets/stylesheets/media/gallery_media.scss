@@ -1,0 +1,318 @@
+@media only screen and (min-width: 2250px) {
+  .gall {
+    .title {
+      p {
+        margin-left: 26vw !important;
+      }
+      .brush-title {
+        left: 36vw !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .gall {
+    .title {
+      .brush-title {
+        left: 31vw;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 1000px) {
+  .gall {
+    .title {
+      .title-gal {
+        margin-left: 6vw !important;
+      }
+      .brush-title {
+        left: 28vw !important;
+      }
+    }
+    .brush {
+      margin-left: -16vw !important;
+    }
+    .genre {
+      margin-bottom: 300px;
+      margin-left: -19vw;
+      margin-top: 205px !important;
+      p {
+        left: 21vw;
+        top: -9vw;
+      }
+    }
+    .pic-1 {
+      margin-left: 19vw !important;
+    }
+    .pic-2 {
+      margin-left: 48.5vw !important;
+    }
+    .pic-3 {
+      right: -76vw !important;
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .gall {
+    margin-left: 0 !important;
+    width: 100vw;
+    .drop {
+      .drop-media-1 {
+        width: 118px;
+        height: 161px;
+        top: 900px;
+        right: -10vw;
+        mix-blend-mode: multiply;
+        display: inline-block;
+      }
+      .drop-media-2 {
+        width: 11px;
+        height: 11px;
+        top: 455px;
+        left: -3vw;
+        mix-blend-mode: multiply;
+        display: inline-block;
+      }
+      .drop-media-3 {
+        width: 22px;
+        height: 33px;
+        top: 1030px;
+        left: -17vw;
+        mix-blend-mode: multiply;
+        display: inline-block;
+      }
+      .drop-media-4 {
+        width: 70px;
+        height: 81px;
+        top: 1600px;
+        right: -8.5vw;
+        mix-blend-mode: multiply;
+        display: inline-block;
+      }
+      .drop-media-5 {
+        width: 13px;
+        height: 14px;
+        top: 1710px;
+        right: 40vw;
+        mix-blend-mode: multiply;
+        display: inline-block;
+      }
+      .drop-media-6 {
+        width: 201px;
+        height: 235px;
+        top: 1715px;
+        right: -8.5vw;
+        mix-blend-mode: multiply;
+        display: inline-block;
+      }
+      .drop-media-7 {
+        width: 45px;
+        height: 45px;
+        top: 470px;
+        left: -3vw;
+        mix-blend-mode: multiply;
+        display: inline-block;
+      }
+      .drop-media-7-copy {
+        width: 58px;
+        height: 58px;
+        bottom: 2230px;
+        right: -8vw;
+        mix-blend-mode: multiply;
+        display: inline-block;
+      }
+      .drop-media-8 {
+        width: 106px;
+        height: 246px;
+        bottom: 2060px;
+        left: -17vw;
+        mix-blend-mode: multiply;
+        display: inline-block;
+      }
+      .drop-media-9 {
+        width: 150px;
+        height: 235px;
+        bottom: 1670px;
+        right: -8.5vw;
+        mix-blend-mode: multiply;
+        display: inline-block;
+      }
+      .drop-media-10 {
+        width: 45.6px;
+        height: 74px;
+        bottom: 1560px;
+        left: -17vw;
+        mix-blend-mode: multiply;
+        display: inline-block;
+      }
+      .drop-media-4-copy {
+        width: 49px;
+        height: 60px;
+        bottom: 980px;
+        right: -8.5vw;
+        mix-blend-mode: multiply;
+        display: inline-block;
+      }
+      .drop-media-4-copy-2 {
+        width: 49px;
+        height: 60px;
+        top: 135px;;
+        right: -8.5vw;
+        mix-blend-mode: multiply;
+        display: inline-block;
+      }
+      .drop-21-2 {
+        width: 64px;
+        mix-blend-mode: multiply;
+        left: -18.5vw;
+        top: 50px;
+        display: inline-block;
+      }
+      .drop-22 {
+        width: 61px;
+        height: 63px;
+        mix-blend-mode: multiply;
+        left: 59vw;
+        top: 755px;
+        display: inline-block;
+      }
+    }
+    .title {
+      text-align: left;
+      p {
+        width: 156px;
+        height: 50px;
+        font-size: 48px;
+        font-weight: 300;
+        line-height: 1.04;
+        letter-spacing: -0.8px;
+        text-align: center;
+        color: $text-color;
+        margin-top: 74px;
+        margin-left: 8vw;
+      }
+      .brush-title {
+        width: 280px;
+        mix-blend-mode: multiply;
+        top: -160px;
+        left: 26vw;
+      }
+    }
+    .genre {
+      position: relative;
+      top: -30px !important;
+      left: -6vw;
+    }
+    .portrait {
+      margin-bottom: 180px !important;
+    }
+    .pet-portrait {
+      margin-bottom: 470px !important;
+    }
+    .modern-art {
+      margin-bottom: 355px !important;
+    }
+    .landscape-urban {
+      margin-bottom: 55px !important;
+    }
+    .abstrakt-art {
+      margin-bottom: 130px !important;
+    }
+
+    .others-genre {
+      display: none;
+    }
+    .pic-1 {
+      position: relative;
+      top: 75px !important;
+      left: -20.4vw !important;
+    }
+    .pic-2 {
+      position: relative;
+      top: 363px !important;
+      left: -44vw !important;
+    }
+    .pic-3 {
+      position: relative;
+      top: 650px !important;
+      left: -3.4vw !important;
+    }
+
+    .brush-media-1 {
+      display: inline-block;
+      width: 415px;
+      position: relative;
+      left: -14.5vw;
+      margin-top: -130px;
+      mix-blend-mode: multiply;
+    }
+    .brush-media-2 {
+      display: inline-block;
+      width: 380px;
+      position: relative;
+      left: -14.5vw;
+      margin-top: -330px;
+      mix-blend-mode: multiply;
+    }
+    .brush-media-3 {
+      display: inline-block;
+      width: 415px;
+      position: relative;
+      left: -14.5vw;
+      margin-top: -310px;
+      mix-blend-mode: multiply;
+    }
+    .brush-media-4 {
+      display: inline-block;
+      width: 415px;
+      position: relative;
+      left: -14.5vw;
+      margin-top: -300px;
+      mix-blend-mode: multiply;
+    }
+    .brush-media-5 {
+      display: inline-block;
+      width: 415px;
+      position: relative;
+      left: -14.5vw;
+      margin-top: -230px;
+      mix-blend-mode: multiply;
+    }
+
+    .no-media {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 1150px) and (min-width: 620px) {
+  .gall .title {
+    p {
+      margin-left: 28vw !important;
+    }
+    .brush-title {
+      top: -146px !important;
+    }
+  }
+}
+@media only screen and (max-width: 619px) {
+  .gall .title {
+    .brush-title {
+      left: 5vw !important;
+    }
+  }
+}
+@media only screen and (max-width: 325px) {
+  .gall {
+    .pic-1 {
+      left: -29.4vw !important;
+    }
+    .pic-2 {
+      left: -52.9vw !important;
+    }
+    .pic-3 {
+      left: -12.4vw !important;
+    }
+  }
+}
+

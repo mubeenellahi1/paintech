@@ -1,0 +1,193 @@
+#about {
+  #about_header {
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 100px;
+    padding-bottom: 160px;
+    float:left;
+
+    .about-header-drops{
+      position: absolute;
+      width: 100%;
+
+      .drop-7-copy-2{
+        position: absolute;
+        right: 24vw;
+        top: 19vh;
+        max-width: 23px;
+        width: 2vw;
+        mix-blend-mode: multiply;
+      }
+
+      .drop-17 {
+        position: absolute;
+        right: -2vw;
+        top: 16vh;
+        max-width: 460px;
+        width: 20vw;
+        mix-blend-mode: multiply;
+      }
+
+      .drop-11 {
+        position: absolute;
+        left: 5vw;
+        top: 35vh;
+        max-width: 37px;
+        width: 2vw;
+        mix-blend-mode: multiply;
+      }
+    }
+  }
+
+  #about_body {
+    #content {
+      #title {
+        font-family: $font-roboto-light;
+        font-size: 97px;
+        font-weight: 300;
+        line-height: 0.85;
+        letter-spacing: -1.7px;
+        color: $primary-color-price;
+        margin-bottom: 278px;
+        margin-top: -50px;
+      }
+      .brush-title {
+        width: 363px;
+        object-fit: contain;
+        transform: rotate(-240deg);
+        z-index: -1;
+        position: absolute;
+        left: 40%;
+        top: -70px;
+      }
+
+      #img {
+        .artist-on-work {
+          padding-left: 0;
+          padding-right: 0;
+          max-width: 1300px;
+          width: 100%;
+          margin-bottom: 120px;
+        }
+        .artist-on-work-media {
+          display: none;
+        }
+
+        .brush-2 {
+          position: absolute;
+          left: 0;
+          top: -33vh;
+          z-index: -2;
+          width: 100%;
+        }
+
+        .img-drops{
+          position: absolute;
+          width: 100%;
+
+          .drop-3 {
+            position: absolute;
+            left: -7vw;
+            top: -31vh;
+            max-width: 2vw;
+            mix-blend-mode: multiply;
+          }
+
+          .drop-4 {
+            position: absolute;
+            left: -12vw;
+            top: -32vh;
+            z-index: -1;
+            width: 5vw;
+            max-width: 81px;
+            mix-blend-mode: multiply;
+          }
+
+          .drop-7 {
+            position: absolute;
+            right: 16vw;
+            top: -22vh;
+            max-width: 23px;
+            width: 2vw;
+            z-index: -1;
+            mix-blend-mode: multiply;
+          }
+        }
+      }
+
+      .about-body-drops {
+        position: absolute;
+        width: 100%;
+        .drop-6 {
+          position: absolute;
+          max-width: 46px;
+          left: -5vw;
+          top: -2vh;
+          width: 3vw;
+          mix-blend-mode: multiply;
+        }
+        .drop-7-copy {
+          position: absolute;
+          left: -11%;
+          top: 40vh;
+          width: 15vw;
+          max-width: 250px;
+          mix-blend-mode: multiply;
+        }
+        .drop-13 {
+          position: absolute;
+          right: 12vw;
+          top: 55vh;
+          width: 4vw;
+          max-width: 67px;
+          mix-blend-mode: multiply;
+        }
+        .drop-12 {
+          position: absolute;
+          right: 11vw;
+          top: 52vh;
+          width: 1vw;
+          max-width: 23px;
+          mix-blend-mode: multiply;
+        }
+        .drop-5 {
+          position: absolute;
+          right: -10%;
+          max-width: 261px;
+          top: -25vh;
+          width: 20vw;
+          mix-blend-mode: multiply;
+        }
+        .media {
+          display: none;
+        }
+      }
+
+      #description {
+        font-family: $font-pt-serif;
+        font-size: 24px;
+        line-height: 1.67;
+        max-width: 600px;
+        color: $text-color;
+        box-sizing: content-box;
+        margin-bottom: 375px;
+        margin-left: 7vw;
+        p.header {
+          font-family: $font-roboto-light;
+          font-size: 60px;
+          line-height: 1.37;
+          letter-spacing: -1px;
+          color: $header-color;
+        }
+        .info {
+          margin-top: 11vw;
+        }
+        .about-info {
+          font-family: $font-roboto-light;
+          font-size: 32px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
